@@ -1,0 +1,27 @@
+[user]
+  name = SAITO Kazuya
+  email = saito@smartalgorithm.co.jp
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = false
+  quotepath = false
+  ignorecase = false
+  pager = delta
+[delta]
+  side-by-side = true
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
+[merge]
+  ff = false
+[pull]
+  rebase = true
+[filter "lfs"]
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+[push]
+  default = current
+[init]
+  defaultBranch = main
