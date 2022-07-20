@@ -3,13 +3,15 @@
 ## Requirements
 
 - zsh
+- oh-my-zsh
 - homebrew
-- rcm
 
 ## Install
 
 ```
 git clone git@github.com:mokichi/dotfiles.git ~/.dotfiles
+export PATH=/opt/homebrew/bin:$PATH
+brew bundle
 RCRC=~/.dotfiles/rcrc rcup
 ```
 

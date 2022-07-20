@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/opt/openjdk/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/mokichi/.oh-my-zsh"
@@ -103,5 +103,5 @@ EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # google-cloud-sdk
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
