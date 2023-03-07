@@ -1,5 +1,4 @@
 tap "aws/tap"
-tap "homebrew/cask"
 tap "hudochenkov/sshpass"
 tap "kayac/tap"
 tap "songmu/tap"
