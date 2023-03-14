@@ -1,5 +1,4 @@
 tap "aws/tap"
-tap "hudochenkov/sshpass"
 tap "kayac/tap"
 tap "songmu/tap"
 
@@ -18,7 +17,6 @@ brew "tig"
 brew "tree"
 brew "vim"
 brew "watch"
-brew "hudochenkov/sshpass/sshpass"
 brew "kayac/tap/ecspresso"
 brew "songmu/tap/ecschedule"
 
