@@ -704,12 +704,6 @@
         "options": {
           "full_name": "discord"
         }
-      },
-      "modern-csv": {
-        "version": "1.3.36",
-        "options": {
-          "full_name": "modern-csv"
-        }
       }
     },
     "mas": {
