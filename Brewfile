@@ -26,7 +26,6 @@ brew "songmu/tap/ecschedule"
 cask "appcleaner"
 cask "clipy"
 cask "coteditor"
-# NOTE: CSV+（https://www.plus-one.tech/csv-plus/）もhomebrewに対応するといいなあ
 cask "discord"
 cask "docker"
 cask "dropbox"
@@ -36,6 +35,7 @@ cask "iterm2"
 cask "openvpn-connect"
 cask "session-manager-plugin"
 cask "slack"
+cask "table-tool"
 cask "tableplus"
 cask "the-unarchiver"
 cask "visual-studio-code"
@@ -44,3 +44,4 @@ cask "zoom"
 mas "CalcBar", id: 1494615606
 mas "Kindle", id: 302584613
 mas "Line", id: 539883307
+mas "Speedtest by Ookla", id: 1153157709
