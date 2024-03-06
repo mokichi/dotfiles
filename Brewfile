@@ -1,9 +1,11 @@
 tap "aws/tap"
+tap "Jimon-s/awsmfa"
 tap "kayac/tap"
 tap "songmu/tap"
 
 brew "asdf"
 brew "awscli"
+brew "awsmfa"
 brew "direnv"
 brew "flyctl"
 brew "git"
