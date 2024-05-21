@@ -26,6 +26,7 @@ brew "watch"
 brew "kayac/tap/ecspresso"
 brew "songmu/tap/ecschedule"
 
+cask "1password/tap/1password-cli"
 cask "appcleaner"
 cask "clipy"
 cask "coteditor"
