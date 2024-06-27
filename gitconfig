@@ -27,3 +27,5 @@
     process = git-lfs filter-process
 [init]
     defaultBranch = main
+[credential]
+	helper = osxkeychain
