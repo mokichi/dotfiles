@@ -48,6 +48,5 @@ cask "visual-studio-code"
 cask "zoom"
 
 mas "CalcBar", id: 1494615606
-mas "Kindle", id: 302584613
 mas "Line", id: 539883307
 mas "Speedtest by Ookla", id: 1153157709
