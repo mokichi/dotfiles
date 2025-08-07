@@ -3,6 +3,7 @@ tap "Jimon-s/awsmfa"
 tap "kayac/tap"
 tap "songmu/tap"
 
+brew "aws-sam-cli"
 brew "awscli"
 brew "awsmfa"
 brew "direnv"
