@@ -101,3 +101,8 @@ EDITOR='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/mokichi/.lmstudio/bin"
+# End of LM Studio CLI section
+
