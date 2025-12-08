@@ -34,7 +34,6 @@ brew "songmu/tap/ecschedule"
 
 cask "1password/tap/1password-cli"
 cask "appcleaner"
-cask "chatgpt"
 cask "clipy"
 cask "coteditor"
 cask "discord"
