@@ -1,5 +1,6 @@
 .*.swp
 *~
+.claude/settings.local.json
 .DS_Store
 .envrc
 .kube
