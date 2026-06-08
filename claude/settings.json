@@ -23,5 +23,9 @@
       }
     ]
   },
-  "agentPushNotifEnabled": true
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "agentPushNotifEnabled": true,
+  "skipAutoPermissionPrompt": true
 }
