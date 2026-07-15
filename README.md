@@ -9,10 +9,10 @@
 ## Install
 
 ```
-git clone git@github.com:mokichi/dotfiles.git ~/.dotfiles
+git clone git@github.com:mokichi/dotfiles.git ~/Work/mokichi/dotfiles
 export PATH=/opt/homebrew/bin:$PATH
 brew bundle
-RCRC=~/.dotfiles/rcrc rcup
+RCRC=~/Work/mokichi/dotfiles/rcrc rcup
 ```
 
 ## Update
