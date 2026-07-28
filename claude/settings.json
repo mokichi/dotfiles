@@ -1,4 +1,7 @@
 {
+  "permissions": {
+    "defaultMode": "auto"
+  },
   "hooks": {
     "Stop": [
       {
@@ -22,9 +25,6 @@
         ]
       }
     ]
-  },
-  "permissions": {
-    "defaultMode": "auto"
   },
   "agentPushNotifEnabled": true,
   "skipAutoPermissionPrompt": true
