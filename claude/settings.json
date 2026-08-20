@@ -26,7 +26,7 @@
       }
     ]
   },
-  "agentPushNotifEnabled": true,
   "language": "Japanese",
+  "agentPushNotifEnabled": true,
   "skipAutoPermissionPrompt": true
 }
