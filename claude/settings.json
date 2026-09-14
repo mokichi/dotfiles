@@ -5,15 +5,6 @@
   "hooks": {
     "Stop": [
       {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "echo '{\"cwd\": \"'\"$(pwd)\"'\", \"notification_type\": \"stop\"}' | ~/.claude/hooks/notify.sh"
-          }
-        ]
-      },
-      {
         "hooks": [
           {
             "type": "command",
@@ -23,15 +14,6 @@
       }
     ],
     "Notification": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "~/.claude/hooks/notify.sh"
-          }
-        ]
-      },
       {
         "hooks": [
           {
