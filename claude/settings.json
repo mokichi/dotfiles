@@ -12,6 +12,14 @@
             "command": "echo '{\"cwd\": \"'\"$(pwd)\"'\", \"notification_type\": \"stop\"}' | ~/.claude/hooks/notify.sh"
           }
         ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "curl -s -o /dev/null -m 1 -X POST -H 'Content-Type: application/json' -H \"X-Orca-Terminal: ${ORCA_TERMINAL_HANDLE:-}\" -H \"X-Term-Tty: $(ps -o tty= -p $PPID 2>/dev/null | tr -d ' ')\" -H \"X-Term-Program: ${TERM_PROGRAM:-}\" -H \"X-Term-Tmux: ${TMUX:-}\" --data-binary @- http://127.0.0.1:7777/hook >/dev/null 2>&1 || true # agentcritters"
+          }
+        ]
       }
     ],
     "Notification": [
@@ -21,6 +29,84 @@
           {
             "type": "command",
             "command": "~/.claude/hooks/notify.sh"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "curl -s -o /dev/null -m 1 -X POST -H 'Content-Type: application/json' -H \"X-Orca-Terminal: ${ORCA_TERMINAL_HANDLE:-}\" -H \"X-Term-Tty: $(ps -o tty= -p $PPID 2>/dev/null | tr -d ' ')\" -H \"X-Term-Program: ${TERM_PROGRAM:-}\" -H \"X-Term-Tmux: ${TMUX:-}\" --data-binary @- http://127.0.0.1:7777/hook >/dev/null 2>&1 || true # agentcritters"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "curl -s -o /dev/null -m 1 -X POST -H 'Content-Type: application/json' -H \"X-Orca-Terminal: ${ORCA_TERMINAL_HANDLE:-}\" -H \"X-Term-Tty: $(ps -o tty= -p $PPID 2>/dev/null | tr -d ' ')\" -H \"X-Term-Program: ${TERM_PROGRAM:-}\" -H \"X-Term-Tmux: ${TMUX:-}\" --data-binary @- http://127.0.0.1:7777/hook >/dev/null 2>&1 || true # agentcritters"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "curl -s -o /dev/null -m 1 -X POST -H 'Content-Type: application/json' -H \"X-Orca-Terminal: ${ORCA_TERMINAL_HANDLE:-}\" -H \"X-Term-Tty: $(ps -o tty= -p $PPID 2>/dev/null | tr -d ' ')\" -H \"X-Term-Program: ${TERM_PROGRAM:-}\" -H \"X-Term-Tmux: ${TMUX:-}\" --data-binary @- http://127.0.0.1:7777/hook >/dev/null 2>&1 || true # agentcritters"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "curl -s -o /dev/null -m 1 -X POST -H 'Content-Type: application/json' -H \"X-Orca-Terminal: ${ORCA_TERMINAL_HANDLE:-}\" -H \"X-Term-Tty: $(ps -o tty= -p $PPID 2>/dev/null | tr -d ' ')\" -H \"X-Term-Program: ${TERM_PROGRAM:-}\" -H \"X-Term-Tmux: ${TMUX:-}\" --data-binary @- http://127.0.0.1:7777/hook >/dev/null 2>&1 || true # agentcritters"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "curl -s -o /dev/null -m 1 -X POST -H 'Content-Type: application/json' -H \"X-Orca-Terminal: ${ORCA_TERMINAL_HANDLE:-}\" -H \"X-Term-Tty: $(ps -o tty= -p $PPID 2>/dev/null | tr -d ' ')\" -H \"X-Term-Program: ${TERM_PROGRAM:-}\" -H \"X-Term-Tmux: ${TMUX:-}\" --data-binary @- http://127.0.0.1:7777/hook >/dev/null 2>&1 || true # agentcritters"
+          }
+        ]
+      }
+    ],
+    "PermissionDenied": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "curl -s -o /dev/null -m 1 -X POST -H 'Content-Type: application/json' -H \"X-Orca-Terminal: ${ORCA_TERMINAL_HANDLE:-}\" -H \"X-Term-Tty: $(ps -o tty= -p $PPID 2>/dev/null | tr -d ' ')\" -H \"X-Term-Program: ${TERM_PROGRAM:-}\" -H \"X-Term-Tmux: ${TMUX:-}\" --data-binary @- http://127.0.0.1:7777/hook >/dev/null 2>&1 || true # agentcritters"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "curl -s -o /dev/null -m 1 -X POST -H 'Content-Type: application/json' -H \"X-Orca-Terminal: ${ORCA_TERMINAL_HANDLE:-}\" -H \"X-Term-Tty: $(ps -o tty= -p $PPID 2>/dev/null | tr -d ' ')\" -H \"X-Term-Program: ${TERM_PROGRAM:-}\" -H \"X-Term-Tmux: ${TMUX:-}\" --data-binary @- http://127.0.0.1:7777/hook >/dev/null 2>&1 || true # agentcritters"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "curl -s -o /dev/null -m 1 -X POST -H 'Content-Type: application/json' -H \"X-Orca-Terminal: ${ORCA_TERMINAL_HANDLE:-}\" -H \"X-Term-Tty: $(ps -o tty= -p $PPID 2>/dev/null | tr -d ' ')\" -H \"X-Term-Program: ${TERM_PROGRAM:-}\" -H \"X-Term-Tmux: ${TMUX:-}\" --data-binary @- http://127.0.0.1:7777/hook >/dev/null 2>&1 || true # agentcritters"
           }
         ]
       }
