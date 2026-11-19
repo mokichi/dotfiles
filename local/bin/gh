@@ -1,0 +1,12 @@
+#!/bin/sh
+# git config の github.user に応じて gh のアカウントを切り替えるラッパー
+# （github.user は ~/.gitconfig.local の includeIf などで設定する）
+real_gh=/opt/homebrew/bin/gh
+if [ -z "$GH_TOKEN" ] && acct=$(git config --get github.user 2>/dev/null) && [ -n "$acct" ]; then
+  if token=$("$real_gh" auth token --user "$acct" 2>/dev/null); then
+    export GH_TOKEN="$token"
+  else
+    echo "gh wrapper: '$acct' の token が取れません（gh auth login 済みか確認）" >&2
+  fi
+fi
+exec "$real_gh" "$@"
