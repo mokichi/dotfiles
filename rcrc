@@ -1,2 +1,2 @@
-DOTFILES_DIRS="$HOME/Work/mokichi/dotfiles"
+DOTFILES_DIRS="$HOME/Work/mokichi/dotfiles $HOME/Work/mokichi/dotfiles-private"
 EXCLUDES="*.md Brewfile* *.bak"
